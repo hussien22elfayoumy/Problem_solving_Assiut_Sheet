@@ -6,8 +6,7 @@ int main()
   int a, b;
   char s;
   cin >> a >> s >> b;
-  if ( a > 0 && b > 0)
-  {
+
     switch (s)
     {
       case '+':
@@ -28,7 +27,6 @@ int main()
       default :
       return 0;
     }
-  }
-  else
+    
   return 0;
 }

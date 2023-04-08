@@ -3,10 +3,10 @@ using namespace std;
 
 int main()
 {
-  float n;
+  double n;
 
   cin >> n;
-  int intN = n;
+  int intN = int(n);
 
   if (n == intN)
   cout << "int " << intN << endl;

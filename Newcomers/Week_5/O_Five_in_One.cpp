@@ -21,9 +21,9 @@ int prime(int arr[], int n)
   {
     int x = arr[i];
     bool check = true;
-    if (arr[i] == 1)
+    if (x == 1)
       check = false;
-    for (int j = 2; j * j <= arr[i]; j++)
+    for (int j = 2; j * j <= x; j++)
     {
       if (x % j == 0)
         check = false;
